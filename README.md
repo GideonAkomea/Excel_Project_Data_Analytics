@@ -102,6 +102,10 @@ I inserted pivot tables to aid in analyzing the data to answer the objective que
 - **Insights Gained**: Enables quick grasp of traffic trends during the day.
 
 
+## Conclusion  
+I created this dashboard to showcase insights into Traffic trends accross four intersections. Utilizing data from kaggle, this dashboard allows users to make informed decisions about the congestions situation across the intersections which will help in traffic management.
+
+
 
 
 
