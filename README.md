@@ -34,6 +34,17 @@ The dataset used for this project contains real-world traffic information from 2
 
 ## Dashboard Build  
 
+## Power Query (ETL)  
+**Extract**  
+- I first used Power Query to extract the original data [traffic data](traffic%20data) and creat a query called traffic.
+
+**Transform**  
+- Then i transformed the query by reodering conlums, inserting new columns for month name, Day name, Time, Year, and date.
+   - traffic  
+     <img width="260" height="321" alt="Screenshot 2025-10-09 232832" src="https://github.com/user-attachments/assets/bd739fca-c75f-488c-88b2-f1fdbc229410" />
+
+     
+
 ### Charts  
 
 **Average Daily Traffic-Bar Chart**  
