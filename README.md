@@ -23,7 +23,7 @@ The following Excel Skills were utilized for analysis
 - Pivot Charts
 - Power Query
 - DAX(Data Analysis Expressions)
-- Power Pivot
+
 
 ### Traffic Dataset  
 The dataset used for this project contains real-world traffic information from 2015 to 2017 on Kaggle available via [traffic](https://www.kaggle.com/datasets/fedesoriano/traffic-prediction-dataset/data) which provides foundation for analyzing data using Excel.It includes detailed information on:  
@@ -47,6 +47,25 @@ The dataset used for this project contains real-world traffic information from 2
 - Finally, i loaded the transformed query into the workbook as pivottable, setting the foundation for my subsequent analysis.
   
   <img width="1920" height="1080" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/7e656ed8-03ab-4d69-a883-e5540c1b52db" />
+
+
+### DAX(Data Analysis Expression)
+In order to answer the question i set out initially i used dax to creat explicit measures to analyze the data based on each question.For instance:  
+
+1. What is the Average Daily Traffic(ADT) per month?
+    - i created a DAX measure ADT to answer this question.
+       ```
+       ADT=
+       VAR TotalVehicles =
+          SUM(Traffic[Vehicles])
+       VAR DaysInPeriod =
+          CALCULATE(
+              DISTINCTCOUNT(Traffic[Date]),
+              ALLEXCEPT(Traffic, Traffic[Year], traffic[Month_Recorded], Traffic[Junction])
+          )
+       RETURN
+          DIVIDE(TotalVehicles, DaysInPeriod)
+       ```
 
 
 
