@@ -2,7 +2,7 @@
 <img width="1544" height="1059" alt="Screenshot 2025-10-09 095731" src="https://github.com/user-attachments/assets/2ad98ed3-dd2a-4bda-9e13-d6c9e8564da9" />  
 
 ##  Introduction  
-As a Civil Engineer with huge interest in Transportation Engineering and data analysis, This my first excel analysis project was carried out to gain insight into an open source traffic data obtain from kaggle.  
+As a Civil Engineer with huge interest in Transportation Engineering and data analysis, This my first excel analysis project was carried out to gain insight into an open source traffic data obtained from kaggle.  
 
 ### Questions to Analyze  
 
@@ -24,5 +24,46 @@ The following Excel Skills were utilized for analysis
 - Power Query
 - DAX(Data Analysis Expressions)
 - Power Pivot
+
+### Traffic Dataset  
+The dataset used for this project contains real-world traffic information from 2015 to 2017 on Kaggle available via [traffic](https://www.kaggle.com/datasets/fedesoriano/traffic-prediction-dataset/data) which provides foundation for analyzing data using Excel.It includes detailed information on:  
+- ID
+- Junction
+- Vehicles
+- DateTime
+
+## Dashboard Build  
+
+### Charts  
+
+**Average Daily Traffic-Bar Chart**  
+<img width="513" height="360" alt="Screenshot 2025-10-09 100425" src="https://github.com/user-attachments/assets/80be9576-0233-4a66-b0db-01dbc3eab2cb" />  
+- **Excel Features**: Utilized bar chart feature and optimized layout for clarity.
+- **Design Choice**: Horizontal bar chart for visual comparison of ADT.
+- **Data Organization**: Sorted Months by decending ADT values for improved readability.
+- **Insights Gained**: This enables quick identification of ADT trends in a year, noting the peak month of the displayed year and Junction was November.
+
+**Day of the Week Traffic chart**  
+<img width="455" height="340" alt="Screenshot 2025-10-09 095845" src="https://github.com/user-attachments/assets/5b27ea06-6057-4c08-bf89-60c2985463e8" />  
+- **Excel Features**: Utilized bar chart feature and optimized layout for clarity.
+- **Design Choice**: Vertical bar chart for visual comparison of daily traffic during the week.
+- **Data Representation**: Ploted the average day of the week traffic for each day  with available data.
+- **Visual Ehancement**: Did conditional formating for the peak day to be highlighted improving readability and immediate understanding of weekly traffic trend
+- **Insights Gained**: Enables quick grasp of traffic trends during the week and highlights the peak day of the week.
+
+**Time of the day Traffic Variation Chart**  
+<img width="687" height="345" alt="Screenshot 2025-10-09 100439" src="https://github.com/user-attachments/assets/b2304472-05c9-4e98-945b-0cffc2f1c848" />  
+- **Excel Features**: Utilized Line chart feature and optimized layout for clarity.
+- **Design Choice**: Line chart to visualize time variation series.
+- **Data Representation**: Ploted the average hour of the day traffic for each hour  with available data.
+- **Insights Gained**: Enables quick grasp of traffic trends during the day.
+
+
+### Power Query (ETL)
+
+
+
+
+
 
 
