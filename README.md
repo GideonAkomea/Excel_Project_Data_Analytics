@@ -36,14 +36,19 @@ The dataset used for this project contains real-world traffic information from 2
 
 ## Power Query (ETL)  
 **Extract**  
-- I first used Power Query to extract the original data [traffic data](traffic%20data) and creat a query called traffic.
+- I first used Power Query to extract the original data [traffic data](Traffic%20Analysis%20Dashboard) and creat a query called traffic.
 
 **Transform**  
 - Then i transformed the query by reodering conlums, inserting new columns for month name, Day name, Time, Year, and date.
    - traffic  
      <img width="260" height="321" alt="Screenshot 2025-10-09 232832" src="https://github.com/user-attachments/assets/bd739fca-c75f-488c-88b2-f1fdbc229410" />
 
-     
+**Load**  
+- Finally, i loaded the transformed query into the workbook as pivottable, setting the foundation for my subsequent analysis.
+  
+  <img width="1920" height="1080" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/7e656ed8-03ab-4d69-a883-e5540c1b52db" />
+
+
 
 ### Charts  
 
@@ -70,7 +75,7 @@ The dataset used for this project contains real-world traffic information from 2
 - **Insights Gained**: Enables quick grasp of traffic trends during the day.
 
 
-### Power Query (ETL)
+
 
 
 
