@@ -70,7 +70,7 @@ In order to answer the question i set out initially i used dax to creat explicit
 
 
 ### Pivot Tables
-I insert pivot tables to aid in analyzing the data to answer the objective questions. For instance a pivot table was created for ADT where month_recorded was thrown into rows and ADT DAX measure was thrown into values. Then two slicers for Junction and Year was inserted to filter the results.
+I inserted pivot tables to aid in analyzing the data to answer the objective questions. For instance a pivot table was created for ADT where month_recorded was thrown into rows and ADT DAX measure was thrown into values. Then two slicers for Junction and Year was inserted to filter the results.
 <img width="1900" height="930" alt="Screenshot 2025-10-10 124757" src="https://github.com/user-attachments/assets/39115f56-5715-4abc-bf55-e4763ff78001" />
       
       
